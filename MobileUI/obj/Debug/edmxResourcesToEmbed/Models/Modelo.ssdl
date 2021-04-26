@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OrdenesDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Articulo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Denominacion" Type="varchar" MaxLength="100" />
+    <Property Name="Codigo" Type="varchar" MaxLength="100" />
+    <Property Name="PrecioCompra" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PrecioVenta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Iva" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="RubroID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RazonSocial" Type="varchar" MaxLength="50" />
+    <Property Name="Cuit" Type="varchar" MaxLength="50" />
+    <Property Name="Saldo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="DomicilioID" Type="int" />
+  </EntityType>
+  <EntityType Name="Domicilio">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Calle" Type="nchar" MaxLength="100" />
+    <Property Name="Numero" Type="int" />
+    <Property Name="Localidad" Type="nchar" MaxLength="100" />
+    <Property Name="Latitud" Type="decimal" Precision="18" Scale="6" />
+    <Property Name="Longitud" Type="decimal" Precision="18" Scale="6" />
+  </EntityType>
+  <EntityType Name="PedidoVenta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaEstimadaEntrega" Type="datetime" />
+    <Property Name="GastosEnvio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" />
+    <Property Name="Entregado" Type="bit" />
+    <Property Name="FechaPedido" Type="datetime" />
+    <Property Name="NroPedido" Type="bigint" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="MontoTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ClienteID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PedidoVentaDetalle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="int" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorcentajeDescuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PedidoVentaID" Type="int" Nullable="false" />
+    <Property Name="ArticuloID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rubro">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Codigo" Type="varchar" MaxLength="100" />
+    <Property Name="Denominacion" Type="varchar" MaxLength="100" />
+    <Property Name="RubroPadreId" Type="int" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Articulo_Rubro">
+    <End Role="Rubro" Type="Self.Rubro" Multiplicity="1" />
+    <End Role="Articulo" Type="Self.Articulo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rubro">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Articulo">
+        <PropertyRef Name="RubroID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cliente_Domicilio">
+    <End Role="Domicilio" Type="Self.Domicilio" Multiplicity="0..1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domicilio">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="DomicilioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PedidoVenta_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="PedidoVenta" Type="Self.PedidoVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PedidoVenta">
+        <PropertyRef Name="ClienteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PedidoVentaDetalle_Articulo">
+    <End Role="Articulo" Type="Self.Articulo" Multiplicity="1" />
+    <End Role="PedidoVentaDetalle" Type="Self.PedidoVentaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articulo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PedidoVentaDetalle">
+        <PropertyRef Name="ArticuloID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PedidoVentaDetalle_PedidoVenta">
+    <End Role="PedidoVenta" Type="Self.PedidoVenta" Multiplicity="1" />
+    <End Role="PedidoVentaDetalle" Type="Self.PedidoVentaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PedidoVenta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PedidoVentaDetalle">
+        <PropertyRef Name="PedidoVentaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rubro_Rubro">
+    <End Role="Rubro" Type="Self.Rubro" Multiplicity="0..1" />
+    <End Role="Rubro1" Type="Self.Rubro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rubro">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rubro1">
+        <PropertyRef Name="RubroPadreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OrdenesDBModelStoreContainer">
+    <EntitySet Name="Articulo" EntityType="Self.Articulo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Domicilio" EntityType="Self.Domicilio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PedidoVenta" EntityType="Self.PedidoVenta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PedidoVentaDetalle" EntityType="Self.PedidoVentaDetalle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rubro" EntityType="Self.Rubro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Articulo_Rubro" Association="Self.FK_Articulo_Rubro">
+      <End Role="Rubro" EntitySet="Rubro" />
+      <End Role="Articulo" EntitySet="Articulo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cliente_Domicilio" Association="Self.FK_Cliente_Domicilio">
+      <End Role="Domicilio" EntitySet="Domicilio" />
+      <End Role="Cliente" EntitySet="Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PedidoVenta_Cliente" Association="Self.FK_PedidoVenta_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="PedidoVenta" EntitySet="PedidoVenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PedidoVentaDetalle_Articulo" Association="Self.FK_PedidoVentaDetalle_Articulo">
+      <End Role="Articulo" EntitySet="Articulo" />
+      <End Role="PedidoVentaDetalle" EntitySet="PedidoVentaDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PedidoVentaDetalle_PedidoVenta" Association="Self.FK_PedidoVentaDetalle_PedidoVenta">
+      <End Role="PedidoVenta" EntitySet="PedidoVenta" />
+      <End Role="PedidoVentaDetalle" EntitySet="PedidoVentaDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rubro_Rubro" Association="Self.FK_Rubro_Rubro">
+      <End Role="Rubro" EntitySet="Rubro" />
+      <End Role="Rubro1" EntitySet="Rubro" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C80ECAFE-2461-4F19-993F-902AAF30800B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdministracionABM</RootNamespace>
+    <AssemblyName>AdministracionABM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABM\ArticuloABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM\ArticuloABM.Designer.cs">
+      <DependentUpon>ArticuloABM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\Cliente.cs" />
+    <Compile Include="Modelo\PedidoVenta.cs" />
+    <Compile Include="Modelo\PedidoVentaDetalle.cs" />
+    <Compile Include="Modelo\Rubro.cs" />
+    <Compile Include="OrdenesDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenesDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenesDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenesDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenesDBDataSetArticulo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenesDBDataSetArticulo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenesDBDataSetRubro.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenesDBDataSetRubro.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\BuscarDomicilio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\BuscarDomicilio.Designer.cs">
+      <DependentUpon>BuscarDomicilio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\ClienteABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM\ClienteABM.Designer.cs">
+      <DependentUpon>ClienteABM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\PedidoVentaABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM\PedidoVentaABM.Designer.cs">
+      <DependentUpon>PedidoVentaABM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\RubroABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM\RubroABM.Designer.cs">
+      <DependentUpon>RubroABM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\Articulo.cs" />
+    <Compile Include="Modelo\Domicilio.cs" />
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindows.Designer.cs">
+      <DependentUpon>MainWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sqlConeccion.cs" />
+    <Compile Include="Tools\VerPedidoVentaDetalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\VerPedidoVentaDetalles.Designer.cs">
+      <DependentUpon>VerPedidoVentaDetalles.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ABM\ArticuloABM.resx">
+      <DependentUpon>ArticuloABM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM\PedidoVentaABM.resx">
+      <DependentUpon>PedidoVentaABM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM\RubroABM.resx">
+      <DependentUpon>RubroABM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\BuscarDomicilio.resx">
+      <DependentUpon>BuscarDomicilio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM\ClienteABM.resx">
+      <DependentUpon>ClienteABM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindows.resx">
+      <DependentUpon>MainWindows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Tools\VerPedidoVentaDetalles.resx">
+      <DependentUpon>VerPedidoVentaDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OrdenesDBDataSet.xsc">
+      <DependentUpon>OrdenesDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrdenesDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenesDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrdenesDBDataSet.xss">
+      <DependentUpon>OrdenesDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrdenesDBDataSet1.xsc">
+      <DependentUpon>OrdenesDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OrdenesDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenesDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrdenesDBDataSet1.xss">
+      <DependentUpon>OrdenesDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OrdenesDBDataSetArticulo.xsc">
+      <DependentUpon>OrdenesDBDataSetArticulo.xsd</DependentUpon>
+    </None>
+    <None Include="OrdenesDBDataSetArticulo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenesDBDataSetArticulo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrdenesDBDataSetArticulo.xss">
+      <DependentUpon>OrdenesDBDataSetArticulo.xsd</DependentUpon>
+    </None>
+    <None Include="OrdenesDBDataSetRubro.xsc">
+      <DependentUpon>OrdenesDBDataSetRubro.xsd</DependentUpon>
+    </None>
+    <None Include="OrdenesDBDataSetRubro.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenesDBDataSetRubro.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrdenesDBDataSetRubro.xss">
+      <DependentUpon>OrdenesDBDataSetRubro.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
