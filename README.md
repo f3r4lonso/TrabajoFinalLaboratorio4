@@ -6,6 +6,6 @@ Este software contiene:
 
 -UI desktop hecha en windows form y C# 
 
--UI web  hecha en ASP .Net sincronizando 
+-UI web  hecha en ASP .Net 
 
--Base de datos SQL server.
+-Base de datos SQL server
