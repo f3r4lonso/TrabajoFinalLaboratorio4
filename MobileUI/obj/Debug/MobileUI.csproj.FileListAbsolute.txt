@@ -1,0 +1,157 @@
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\csc.exe
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\System.Collections.Immutable.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\vbc.exe
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\VBCSCompiler.exe
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\roslyn\VBCSCompiler.exe.config
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\MobileUI.dll.config
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\MobileUI.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\MobileUI.pdb
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\Antlr3.Runtime.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\EntityFramework.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\EntityFramework.SqlServer.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\Newtonsoft.Json.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.Helpers.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.Mvc.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.Optimization.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.Razor.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.WebPages.Deployment.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.WebPages.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.WebPages.Razor.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\WebGrease.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\EntityFramework.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\EntityFramework.SqlServer.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.Helpers.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.Mvc.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.Optimization.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.Razor.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.WebPages.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.WebPages.Deployment.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\System.Web.WebPages.Razor.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\Antlr3.Runtime.pdb
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\Newtonsoft.Json.xml
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\es\System.Web.Helpers.resources.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\es\System.Web.Mvc.resources.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\es\System.Web.Optimization.resources.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\es\System.Web.Razor.resources.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\es\System.Web.WebPages.resources.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\obj\Debug\MobileUI.csprojResolveAssemblyReference.cache
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\obj\Debug\MobileUI.dll
+c:\users\fernando alonso\documents\visual studio 2015\Projects\AdministracionABM\MobileUI\obj\Debug\MobileUI.pdb
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\csc.exe
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\vbc.exe
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\MobileUI.dll.config
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\MobileUI.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\MobileUI.pdb
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\Antlr3.Runtime.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\EntityFramework.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\EntityFramework.SqlServer.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\Newtonsoft.Json.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.Helpers.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.Mvc.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.Optimization.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.Razor.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\WebGrease.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\EntityFramework.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\EntityFramework.SqlServer.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.Helpers.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.Mvc.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.Optimization.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.Razor.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\Antlr3.Runtime.pdb
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\Newtonsoft.Json.xml
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.Razor.resources.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.csprojAssemblyReference.cache
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.csproj.CoreCompileInputs.cache
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.csproj.CopyComplete
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.dll
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.pdb
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\csc.exe
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\vbc.exe
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\MobileUI.dll.config
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\MobileUI.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\MobileUI.pdb
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\Antlr3.Runtime.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\EntityFramework.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\Newtonsoft.Json.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.Helpers.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.Mvc.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.Optimization.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.Razor.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\WebGrease.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\EntityFramework.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.Helpers.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.Mvc.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.Optimization.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.Razor.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\Antlr3.Runtime.pdb
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\Newtonsoft.Json.xml
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.csproj.CoreCompileInputs.cache
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.dll
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.pdb
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.csprojAssemblyReference.cache
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\MobileUI\obj\Debug\MobileUI.csproj.CopyComplete

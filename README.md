@@ -1,4 +1,4 @@
-# Trabajo Final Laboratorio de Informatica 4 FRM-UTN
+# Trabajo Final Laboratorio de Informática 4 FRM-UTN
 
 Software ABM de Administración para ventas, stock, clientes y proveedores
 

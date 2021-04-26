@@ -1,0 +1,84 @@
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\bin\Debug\AdministracionABM.exe.config
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\bin\Debug\AdministracionABM.exe
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\bin\Debug\AdministracionABM.pdb
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.ArticuloABM.resources
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.BuscarDomicilio.resources
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.ClienteABM.resources
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.LogIn.resources
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.MainWindows.resources
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.Properties.Resources.resources
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.csproj.GenerateResource.Cache
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.exe
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.pdb
+C:\Users\Fernando Alonso\Documents\Visual Studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.RubroABM.resources
+C:\Users\Fernando Alonso\Documents\Visual Studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.PedidoVentaABM.resources
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.Tools.VerPedidoVentaDetalles.resources
+C:\Users\Fernando Alonso\documents\visual studio 2015\Projects\AdministracionABM\AdministracionABM\obj\Debug\AdministracionABM.csprojResolveAssemblyReference.cache
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\bin\Debug\AdministracionABM.exe.config
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\bin\Debug\AdministracionABM.exe
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\bin\Debug\AdministracionABM.pdb
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.csprojResolveAssemblyReference.cache
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.ArticuloABM.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.PedidoVentaABM.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.RubroABM.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.BuscarDomicilio.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.ClienteABM.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.LogIn.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.MainWindows.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.Properties.Resources.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.Tools.VerPedidoVentaDetalles.resources
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.csproj.GenerateResource.Cache
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.csproj.CoreCompileInputs.cache
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.exe
+C:\Users\Morrys\Desktop\Nueva carpeta\AdministracionABM\obj\Debug\AdministracionABM.pdb
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\bin\Debug\AdministracionABM.exe.config
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\bin\Debug\AdministracionABM.exe
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\bin\Debug\AdministracionABM.pdb
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.csprojAssemblyReference.cache
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.ArticuloABM.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.PedidoVentaABM.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.RubroABM.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.BuscarDomicilio.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.ClienteABM.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.LogIn.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.MainWindows.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.Properties.Resources.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.Tools.VerPedidoVentaDetalles.resources
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.csproj.GenerateResource.cache
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.csproj.CoreCompileInputs.cache
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.exe
+C:\Users\mi PC\Desktop\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.pdb
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\bin\Debug\AdministracionABM.exe.config
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\bin\Debug\AdministracionABM.exe
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\bin\Debug\AdministracionABM.pdb
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.ArticuloABM.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.PedidoVentaABM.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.RubroABM.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.BuscarDomicilio.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.ClienteABM.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.LogIn.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.MainWindows.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.Properties.Resources.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.Tools.VerPedidoVentaDetalles.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.csproj.GenerateResource.Cache
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.csproj.CoreCompileInputs.cache
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.exe
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.pdb
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\AdministracionABM\obj\Debug\AdministracionABM.csprojAssemblyReference.cache
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\bin\Debug\AdministracionABM.exe.config
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\bin\Debug\AdministracionABM.exe
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\bin\Debug\AdministracionABM.pdb
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.csprojAssemblyReference.cache
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.ArticuloABM.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.PedidoVentaABM.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.RubroABM.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.BuscarDomicilio.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.ClienteABM.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.LogIn.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.MainWindows.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.Properties.Resources.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.Tools.VerPedidoVentaDetalles.resources
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.csproj.GenerateResource.cache
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.csproj.CoreCompileInputs.cache
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.exe
+C:\Users\Morrys\Documents\Visual Studio 2017\proyects\trabajo final labo 4 2017\TrabajoFinalLaboratorio4\AdministracionABM\obj\Debug\AdministracionABM.pdb

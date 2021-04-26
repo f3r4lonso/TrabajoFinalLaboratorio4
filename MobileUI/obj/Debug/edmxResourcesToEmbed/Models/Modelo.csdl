@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OrdenesDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Articulo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Denominacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Codigo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PrecioCompra" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PrecioVenta" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Iva" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="RubroID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Rubro" Relationship="Self.FK_Articulo_Rubro" FromRole="Articulo" ToRole="Rubro" />
+    <NavigationProperty Name="PedidoVentaDetalles" Relationship="Self.FK_PedidoVentaDetalle_Articulo" FromRole="Articulo" ToRole="PedidoVentaDetalle" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RazonSocial" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cuit" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Saldo" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DomicilioID" Type="Int32" />
+    <NavigationProperty Name="Domicilio" Relationship="Self.FK_Cliente_Domicilio" FromRole="Cliente" ToRole="Domicilio" />
+    <NavigationProperty Name="PedidoVentas" Relationship="Self.FK_PedidoVenta_Cliente" FromRole="Cliente" ToRole="PedidoVenta" />
+  </EntityType>
+  <EntityType Name="Domicilio">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Calle" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Numero" Type="Int32" />
+    <Property Name="Localidad" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Latitud" Type="Decimal" Precision="18" Scale="6" />
+    <Property Name="Longitud" Type="Decimal" Precision="18" Scale="6" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK_Cliente_Domicilio" FromRole="Domicilio" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="PedidoVenta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FechaEstimadaEntrega" Type="DateTime" Precision="3" />
+    <Property Name="GastosEnvio" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Entregado" Type="Boolean" />
+    <Property Name="FechaPedido" Type="DateTime" Precision="3" />
+    <Property Name="NroPedido" Type="Int64" />
+    <Property Name="SubTotal" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MontoTotal" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ClienteID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK_PedidoVenta_Cliente" FromRole="PedidoVenta" ToRole="Cliente" />
+    <NavigationProperty Name="PedidoVentaDetalles" Relationship="Self.FK_PedidoVentaDetalle_PedidoVenta" FromRole="PedidoVenta" ToRole="PedidoVentaDetalle" />
+  </EntityType>
+  <EntityType Name="PedidoVentaDetalle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cantidad" Type="Int32" />
+    <Property Name="SubTotal" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PorcentajeDescuento" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PedidoVentaID" Type="Int32" Nullable="false" />
+    <Property Name="ArticuloID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Articulo" Relationship="Self.FK_PedidoVentaDetalle_Articulo" FromRole="PedidoVentaDetalle" ToRole="Articulo" />
+    <NavigationProperty Name="PedidoVenta" Relationship="Self.FK_PedidoVentaDetalle_PedidoVenta" FromRole="PedidoVentaDetalle" ToRole="PedidoVenta" />
+  </EntityType>
+  <EntityType Name="Rubro">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Codigo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Denominacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RubroPadreId" Type="Int32" />
+    <NavigationProperty Name="Articuloes" Relationship="Self.FK_Articulo_Rubro" FromRole="Rubro" ToRole="Articulo" />
+    <NavigationProperty Name="Rubro1" Relationship="Self.FK_Rubro_Rubro" FromRole="Rubro" ToRole="Rubro1" />
+    <NavigationProperty Name="Rubro2" Relationship="Self.FK_Rubro_Rubro" FromRole="Rubro1" ToRole="Rubro" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Articulo_Rubro">
+    <End Role="Rubro" Type="Self.Rubro" Multiplicity="1" />
+    <End Role="Articulo" Type="Self.Articulo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rubro">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Articulo">
+        <PropertyRef Name="RubroID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PedidoVentaDetalle_Articulo">
+    <End Role="Articulo" Type="Self.Articulo" Multiplicity="1" />
+    <End Role="PedidoVentaDetalle" Type="Self.PedidoVentaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articulo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PedidoVentaDetalle">
+        <PropertyRef Name="ArticuloID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cliente_Domicilio">
+    <End Role="Domicilio" Type="Self.Domicilio" Multiplicity="0..1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domicilio">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="DomicilioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PedidoVenta_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="PedidoVenta" Type="Self.PedidoVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PedidoVenta">
+        <PropertyRef Name="ClienteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PedidoVentaDetalle_PedidoVenta">
+    <End Role="PedidoVenta" Type="Self.PedidoVenta" Multiplicity="1" />
+    <End Role="PedidoVentaDetalle" Type="Self.PedidoVentaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PedidoVenta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PedidoVentaDetalle">
+        <PropertyRef Name="PedidoVentaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rubro_Rubro">
+    <End Role="Rubro" Type="Self.Rubro" Multiplicity="0..1" />
+    <End Role="Rubro1" Type="Self.Rubro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rubro">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rubro1">
+        <PropertyRef Name="RubroPadreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OrdenesDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Articuloes" EntityType="Self.Articulo" />
+    <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+    <EntitySet Name="Domicilios" EntityType="Self.Domicilio" />
+    <EntitySet Name="PedidoVentas" EntityType="Self.PedidoVenta" />
+    <EntitySet Name="PedidoVentaDetalles" EntityType="Self.PedidoVentaDetalle" />
+    <EntitySet Name="Rubroes" EntityType="Self.Rubro" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuario" />
+    <AssociationSet Name="FK_Articulo_Rubro" Association="Self.FK_Articulo_Rubro">
+      <End Role="Rubro" EntitySet="Rubroes" />
+      <End Role="Articulo" EntitySet="Articuloes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PedidoVentaDetalle_Articulo" Association="Self.FK_PedidoVentaDetalle_Articulo">
+      <End Role="Articulo" EntitySet="Articuloes" />
+      <End Role="PedidoVentaDetalle" EntitySet="PedidoVentaDetalles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cliente_Domicilio" Association="Self.FK_Cliente_Domicilio">
+      <End Role="Domicilio" EntitySet="Domicilios" />
+      <End Role="Cliente" EntitySet="Clientes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PedidoVenta_Cliente" Association="Self.FK_PedidoVenta_Cliente">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="PedidoVenta" EntitySet="PedidoVentas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PedidoVentaDetalle_PedidoVenta" Association="Self.FK_PedidoVentaDetalle_PedidoVenta">
+      <End Role="PedidoVenta" EntitySet="PedidoVentas" />
+      <End Role="PedidoVentaDetalle" EntitySet="PedidoVentaDetalles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rubro_Rubro" Association="Self.FK_Rubro_Rubro">
+      <End Role="Rubro" EntitySet="Rubroes" />
+      <End Role="Rubro1" EntitySet="Rubroes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
